@@ -51,11 +51,11 @@ min="18" max="99"><br>
 <input type="date" id="data-nascimento" name="data-nascimento"> <br>
 
 <label for="Genêro">Genêro:</label>
-<select name="genero" id="genero">
-<option value="masculino">masculino</option>
-<option value="feminino">feminino</option>
-<option value="outro">outro</option>
-<option value="prefiro_não_dizer">prefiro não dizer</option>
+    <select name="genero" id="genero">
+    <option value="masculino">masculino</option>
+    <option value="feminino">feminino</option>
+    <option value="outro">outro</option>
+    <option value="prefiro_não_dizer">prefiro não dizer</option>
 
 </select>
 </fieldset>
@@ -79,14 +79,29 @@ placeholder="Fale um pouco de você">
         <option value="Python">
         <option value="Java">
 
-</datalist>
+</datalist><br>
 
-
-
+<label for="Contato">Contato</label>
+<address>
+    Email: julia.pardim@icloud.com<br>
+    Telefone: 1193092836
+</address><br>
 
 </fieldset>
 
+<fieldset>
+    <details>
+        <legend>Outras Informações</legend>
+        <summary>O que é um formulário HTML?</summary>
+        <P>Um formulário Html é utilizado para colocar informações descritivo usuários e enviá-las para um servidor. </P>
+    </details>
 
+    <p>O campo <mark>senha</mark> precisa ter pelo menos 6 caracteres</p>
+    <label for="hora-cadastro">Horário preferido para Contato:</label>
+    <input type="time" id="hora-cadastro" name="hora-cadastro">
+
+</fieldset>
+<button type="submit">Cadastrar</button>
 
 
 
