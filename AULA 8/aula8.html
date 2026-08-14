@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 8</title>
+</head>
+<body>
+    
+    <!-- 
+    <Form> = Define um formulário 
+
+    <input> = Campo de entrada (com vários tipos: texte, password, email, number, etc..)
+    
+    <label> = Associaum texto descritivo ao um <input>
+    
+    <textarea> = Área de texto maior 
+
+    <select. e <option> = Criam menus suspensos (dropdonws)    
+    
+    <button> = Botão Clicável
+       
+    <fieldset> e <legedn> = Agrupam e nomeiam partes de um formulário 
+        
+    <datalist> = Lista de sugestões para <input>    
+    
+    -->
+<h1>Formulário completo</h1>
+
+<form action="/.enviar-dados" method="post">
+    <!-- method="post" tem o botão de enviar. ele vai ser responsável por isso. clicou p enviar e ele envia p algum lugar -->
+<fieldset>
+<legend>Informações pessoais</legend>
+<label for="Nome">Nome completo:</label>
+<input type="text" id="nome" name="nome"
+placeholder="Digite seu nome" required><br>
+
+<label for="Email">E-mail</label>
+<input type="email" id="email" name="email"
+placeholder="julia.pardim@icloud.com" required><br>
+
+<label for="Senha">Senha:</label>
+<input type="password" id="senha" name="senha"  
+placeholder="password" required><br>
+<!-- Para senha n aparecer usa o password no type -->
+ <label for="Idade">Idade:</label>
+<input type="number" id="Idade" name="Idade"  
+min="18" max="99"><br>
+
+<label for="Data de nascimento">Data de nascimento:</label>
+<input type="date" id="data-nascimento" name="data-nascimento"> <br>
+
+<label for="Genêro">Genêro:</label>
+<select name="genero" id="genero">
+<option value="masculino">masculino</option>
+<option value="feminino">feminino</option>
+<option value="outro">outro</option>
+<option value="prefiro_não_dizer">prefiro não dizer</option>
+
+</select>
+</fieldset>
+
+<fieldset>
+<legend>Detalhes Adicionais</legend>
+
+<label for="bio">Sobre você:</label>
+
+<textarea id="bio" name="bio" rows="3"
+placeholder="Fale um pouco de você">
+</textarea> <br>
+
+<label for="linguagem">Linguagem favorita:</label>
+
+<input type="text" name="Linguagem" id="Linguagem" list="linguagens">
+<datalist id="linguagens">
+        <option value="HTML">
+        <option value="CSS">
+        <option value="JavaScript">
+        <option value="Python">
+        <option value="Java">
+
+</datalist>
+
+
+
+
+</fieldset>
+
+
+
+
+
+</body>
+</html>
