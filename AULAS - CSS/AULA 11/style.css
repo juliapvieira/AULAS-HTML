@@ -1,0 +1,27 @@
+body {
+    background-color: #f0bcf1;
+}
+
+/* SELETORES
+Própria tag HTML
+H1, SPAM, P, A..
+
+ID
+Atributo HTML que adiciona o identificador único. Esse identificador pode ser utilizad no css para selecionarmos o elemento
+EXEMPLO: 
+*/
+#paragrafo1 {
+       color:rgb(255, 93, 161);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+
+
+/* CLASSES
+Atributos HTML que adiciona um identificador reutilizável na TAG. Esse identificador pode ser utilizado no CSS para selecionarmos o(s) elementos
+
+*/
+.titulo {
+    color:#8f0445
+}
