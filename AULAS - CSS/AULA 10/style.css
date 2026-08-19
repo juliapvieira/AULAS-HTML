@@ -1,0 +1,73 @@
+body {
+    background-color: pink;
+}
+
+/* RGB */
+
+
+/* RGB COM TRASNPARÊNCIA
+color:rgba(255, 93, 161, 0.74);*/
+
+
+
+/* SITE PARA VER AS CORES DO SITE: ADOBE */
+
+/* IDEIA DE CÓDIGOS NA PALETA ROSA
+#F9A0FF
+#DAA1FF
+#FFA1D2
+#BBA1FF
+#FFA3A1
+*/
+
+/* IDEIA DE CÓDIGOS NA PALETA AZUL 
+#3D99FF
+#81CDFF
+#55A9FF
+#3CF4FF
+#515CFF
+*/                                                                                                                                                       
+h1 {
+    color:rgb(255, 93, 161);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+p {
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+}
+
+span {
+font-size: 2em;
+color:blueviolet
+}
+
+
+
+/* font-weight: bold DEIXA EM NEGRITO */
+/* 
+Controla a grossura do texto (negrito)
+100 = super fino
+400 = normal
+700 = negrito
+900 = super negrito
+*/
+
+
+/* --------------------------------------
+PX (pixel) é uma unidade fixa. O tamanho sempre será o mesmo, independente do tamanho da tela
+
+2EM - O dobro do tamanho padrão, significa que ele é o multiplicador do tamanho base
+
+120% - 20% maior que o padrão
+
+SVW - 5% da largura da tela / isso faz com que o tamanho do texto se ajuste ao tamanho da tela, MUITO útil para design responsível 
+----------------------------------------*/
