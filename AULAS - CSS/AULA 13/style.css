@@ -1,0 +1,58 @@
+/* ======================================= */
+/* CONFIGURAÇÃO GERAL */
+/* ======================================= */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+
+h2 {
+  margin-top: 40px;
+}
+
+/* ============================== */
+/*1.BLOCK */
+/* ============================== */
+/* O display: block faz com que o elemento ocupe toda a largura disponível e seja exibido em uma nova linha */
+
+.block {
+  display: block;
+  background-color: #fc9ee7;
+border: 2px solid #7a3c6d;
+  padding: 15px;
+  margin: 5px;
+}
+/* ======================= */
+/* 2.INLINE */
+/* ======================= */
+/* O display: inline faz com que o elemento não quebre a linha e seja exibido ao lado do próximo elemento */
+/* ocupa só o espaço do conteúdo */
+
+.inline {
+  display: inline;
+  background-color: #fc9ee7;
+  border: 2px solid #68295a;
+  padding: 15px;
+  margin: 5px;
+}
+/* ======================= */
+/* 3. INLINE-BLOCK */
+/* ======================= */
+/* O display: inline-block faz com que o elemento se comporte como um elemento inline, mas permita a definição de largura e altura. permite controlar width e height */
+
+.inline-block {
+  display: inline-block;
+  height: 60px;
+  width: 120px;
+  background-color: #fc9ee7;
+  border: 2px solid #68295a;
+  padding: 10px;
+  margin: 5px;
+ 
+}
